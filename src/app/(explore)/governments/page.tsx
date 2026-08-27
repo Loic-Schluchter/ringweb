@@ -1,8 +1,8 @@
 import { governmentType } from "@/app/types/governmentType";
 
 
-async function GovernmentPage() {
-    const response = await fetch("https://ringapi.onrender.com/government");
+async function GovernmentsPage() {
+    const response = await fetch("https://ringapi.onrender.com/governments");
     const governmentList = await response.json();
     console.log(governmentList);
 
@@ -24,4 +24,4 @@ async function GovernmentPage() {
     );
 }
 
-export default GovernmentPage;
+export default GovernmentsPage;
