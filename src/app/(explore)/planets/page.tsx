@@ -1,12 +1,12 @@
 import { planetType } from "@/app/types/planetType";
-
+import { moonType } from "@/app/types/moonType";
 
 async function PlanetsPage() {
   const response = await fetch("https://ringapi.onrender.com/planets");
   const planetList = await response.json();
   console.log(planetList);
 
- 
+
   const planetArray: planetType[] = planetList.data;
   const planets = planetArray.map((planet: planetType) => (
     <li key={planet.id} className="grid grid-cols-3 grid-rows-2 gap-4 m-4">
