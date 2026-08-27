@@ -1,7 +1,6 @@
 
- export type governmentType = {
-    id: number,
-    name: string,
-    slug: string,
-    type: string
-  };
+export type governmentType = {
+  id: number,
+  name: string,
+  type: string
+};
