@@ -4,8 +4,10 @@ export default function Home() {
   return (
     <>
       {/* Header */}
-      <header className="grid min-h-24 grid-cols-3 items-center px-6 font-headline text-xl uppercase tracking-wider">
-        <h1 className="justify-self-start text-4xl tracking-tighter text-[#E5E7EB]">Ring // API</h1>
+      <header className="grid min-h-24 grid-cols-3 items-center mx-16 my-2 font-headline text-2xl uppercase tracking-wider">
+        <h1 className="justify-self-start text-4xl tracking-wider text-[#E5E7EB]">
+          API // THE EXPANSE
+        </h1>
         <MainNav />
         <div className="flex items-center justify-self-end gap-2 text-[#CE937E]">
           <span>[ Explore ]</span>

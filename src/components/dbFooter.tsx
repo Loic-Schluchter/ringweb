@@ -4,7 +4,7 @@ import {
   Moon,
   FingerprintPattern,
 } from 'lucide-react'
-import FooterCard from './footerCard'
+import FooterCard from './FooterCard'
 
 
 
@@ -15,7 +15,7 @@ async function dbFooter() {
   })
   const stats = await response.json()
   return (
-    <section className="my-12 flex gap-18">
+    <section className="my-24 flex gap-18 ">
       <FooterCard
         title="db_query // Systems"
         icon={Globe}

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Space_Grotesk, Hanken_Grotesk } from 'next/font/google'
+import { Space_Grotesk, Hanken_Grotesk, JetBrains_Mono } from 'next/font/google'
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,6 +17,12 @@ const hankenGrotesk = Hanken_Grotesk({
   variable: "--font-subspace",
   display: "swap",
 });
+
+const JetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+  display: "swap"
+})
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (

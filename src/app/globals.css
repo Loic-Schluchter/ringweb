@@ -12,10 +12,11 @@ body {
 }
 
 @utility nav-item{
-  @apply text-[#E5E7EB] uppercase hover:text-[#CE937E] hover:underline hover:decoration-2 hover:underline-offset-6
+  @apply text-[#E5E7EB] uppercase hover:text-[#CE937E] hover:underline hover:decoration-2 hover:underline-offset-6 hover:cursor-pointer
 }
 
 @theme {
   --font-headline: "Space Grotesk", sans-serif;
   --font-body: "Hanker Grotesk", sans-serif;
+  --font-mono: "Jetbrains Mono", sans-serif;
 }

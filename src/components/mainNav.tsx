@@ -1,15 +1,23 @@
-import React from 'react'
+
+import Link from 'next/link'
 
 function mainNav() {
   return (
     <nav>
-          <ul className="flex justify-center gap-8">
-            <li className="nav-item">Systems</li>
-            <li className="nav-item">Planets</li>
-            <li className="nav-item">Species</li>
-            <li className="nav-item">Api Docs</li>
-          </ul>
-        </nav>
+      <ul className="flex justify-center gap-8">
+        <li className="nav-item">
+          <Link href='/systems'>Systems</Link>
+        </li>
+        <li className="nav-item">
+          <Link href='/planets'>Planets</Link></li>
+        <li className="nav-item">
+          <Link href='/species'>Species</Link>
+        </li>
+        <li className="nav-item">
+          <Link href='/docs'>Api Docs</Link>
+        </li>
+      </ul>
+    </nav>
   )
 }
 
