@@ -1,7 +1,7 @@
 import {  Square,
   ArrowRight} from 'lucide-react'
 import Link from 'next/link'
-function mainHero() {
+function MainHero() {
   return (
     <div className=" flex w-full max-w-3xl flex-col gap-10">
           <p className="flex items-center gap-1 border border-white/10 bg-white/10 px-2 py-1 text-xl font-bold font-mono uppercase text-[#A8B0BA]">
@@ -28,4 +28,4 @@ function mainHero() {
   )
 }
 
-export default mainHero
+export default MainHero

@@ -1,7 +1,7 @@
 
 import Link from 'next/link'
 
-function mainNav() {
+function MainNav() {
   return (
     <nav>
       <ul className="flex justify-center gap-8">
@@ -21,4 +21,4 @@ function mainNav() {
   )
 }
 
-export default mainNav
+export default MainNav

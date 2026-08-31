@@ -9,7 +9,7 @@ import FooterCard from './FooterCard'
 
 
 
-async function dbFooter() {
+async function DbFooter() {
   const response = await fetch("https://ringapi.onrender.com/stats", {
     cache: 'no-store'
   })
@@ -47,4 +47,4 @@ async function dbFooter() {
   )
 }
 
-export default dbFooter
+export default DbFooter
