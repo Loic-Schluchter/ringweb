@@ -1,7 +1,5 @@
 
-
-
-function AppFooter () {
+function AppFooter() {
   return (
       <section className="flex flex-col items-center justify-center ">
 
@@ -19,4 +17,4 @@ function AppFooter () {
   )
 }
 
-export default AppFooter 
+export default AppFooter

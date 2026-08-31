@@ -1,5 +1,5 @@
 
-import { SystemList, AppFooter } from '../../../components'
+import { SystemList} from '../../../components'
 
 async function SystemPage() {
 
