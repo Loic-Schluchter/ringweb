@@ -38,11 +38,11 @@ function getGovernmentColor(government?: string) {
 function SystemCard({ systemData }: { systemData: systemCard }) {
 
     return (
-        <div className="flex flex-col text-xl w-full h-200 border-2 border-[#006A60] px-8 pb-20 gap-4 font-mono">
+        <div className="flex flex-col text-xl w-full h-200 border-2 border-[#006A60] px-8 pb-20 gap-4 font-mono bg-white/5">
 
             <div className="flex relative -left-8 w-100 h-14 shrink-0
             border-2 border-t-0 border-l-0 border-[#6FD8C8]/70
-            bg-gradient-to-r from-[#006A60]/50 via-[#006A60]/20 to-transparent
+            bg-linear-to-r from-[#006A60]/50 via-[#006A60]/20 to-transparent
             backdrop-blur-sm
             shadow-[0_0_15px_rgba(111,216,200,0.08)]">
 

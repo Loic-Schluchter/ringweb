@@ -14,6 +14,12 @@ body {
 @utility nav-item{
   @apply text-[#E5E7EB] uppercase hover:text-[#CE937E] hover:underline hover:decoration-2 hover:underline-offset-6 hover:cursor-pointer
 }
+@utility filterButton{
+  @apply text-xl  py-2 px-4 border  border-[#E5E7EB]/20 text-[#E5E7EB] bg-[#0A131E]/40 uppercase hover:text-[#CE937E] hover:cursor-pointer
+}
+@utility filterButtonActive {
+  @apply bg-[#CE937E]/10 border border-[#CE937E] text-[#CE937E];
+}
 
 @theme {
   --font-headline: "Space Grotesk", sans-serif;

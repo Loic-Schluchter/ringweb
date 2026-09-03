@@ -1,5 +1,5 @@
 
-import { SystemList} from '../../../components'
+import { FilterBar, SystemList} from '../../../components'
 
 async function SystemPage() {
 
@@ -10,6 +10,7 @@ async function SystemPage() {
                     <h1 className="text-6xl font-bold font-headline">STELLAR SYSTEMS</h1>
                     <p className="text-xl text-[#A9ABB3] font-mono">SELECT A SYSTEM FOR DETAILED TELEMTRY AND NAVIGATION DATA</p>
                 </div>
+                <FilterBar />
                 <SystemList />
 
             </main>
